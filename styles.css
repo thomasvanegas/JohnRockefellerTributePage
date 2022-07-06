@@ -1,0 +1,110 @@
+/* IMPORTACIÓN DE FUENTES TIPOGRÁFICAS -> COMBINACIÓN: BEBAS NEUE + OLD STANDARD TT */
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Old+Standard+TT:ital@1&display=swap');
+
+/* PALETA DE COLORES EXTRAIDA DE COLORHUNT.CO
+
+1. #F9F7F7
+2. #323232
+3. #112D4E
+
+*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1,
+h2,
+h3 {
+    font-family: 'Bebas Neue', cursive;
+    text-align: center;
+}
+
+p,
+li,
+figcaption {
+    font-family: 'Old Standard TT', serif;
+}
+
+a {
+    font-family: 'Old Standard TT', serif;
+    color: #112D4E;
+    text-decoration: none;
+}
+
+h1 {
+    font-size: 6vh;
+}
+
+#main p {
+    font-size: 3vh;
+}
+
+body {
+    background-color: #F9F7F7;
+    height: 120vh;
+}
+
+header {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-around;
+    align-items: center;
+
+    background-color: #323232;
+    width: 98vw;
+    color: #F9F7F7;
+    height: 20vh;
+}
+
+#main {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-around;
+    align-items: center;
+
+    height: 330vh;
+}
+
+/* SE HACE RESPONSIVA LA IMAGEN CON ID IMAGE */
+#image {
+    max-width: 100%;
+    height: auto;
+    width: 25vw;
+    border-radius: 1vw;
+}
+
+#img-caption {
+    color: #F9F7F7;
+    font-size: 4vh;
+}
+
+#img-div {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-around;
+    align-items: center;
+
+    background-color: #323232;
+    width: 30vw;
+    height: 90vh;
+    border-radius: 1%;
+    box-shadow: -3px -3px 20px 5px #112D4E;
+}
+
+#contenido {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: space-evenly;
+
+    text-align: center;
+    height: 200vh;
+    width: 96vw;
+}
+
+.info {
+    text-align: justify;
+    padding: 0 2vw 0 2vw;
+}
